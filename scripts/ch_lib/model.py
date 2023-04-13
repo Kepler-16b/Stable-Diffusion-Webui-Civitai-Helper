@@ -12,6 +12,7 @@ root_path = os.getcwd()
 # if command line arguement is used to change model folder, 
 # then model folder is in absolute path, not based on this root path anymore.
 # so to make extension work with those absolute model folder paths, model folder also need to be in absolute path
+# added lycoris path so that the extension's folder for storing lycoris model can be recognized.
 folders = {
     "ti": os.path.join(root_path, "embeddings"),
     "hyper": os.path.join(root_path, "models", "hypernetworks"),
